@@ -72,131 +72,131 @@ The following table provides a breakdown of notable institutional execution suit
 
 The open-source ecosystem provides non-custodial execution frameworks, low-latency market-making daemons, and quant backtesting suites. 
 
-**Sorted by GitHub Stars in descending order** (all star badges link directly to the repository's stargazers page):
+**Sorted by GitHub_Stars in descending order** (all Stars_Badges link directly to the repository's stargazers page):
 
 ---
 
-### 1. [Freqtrade](https://github.com/freqtrade/freqtrade) [![GitHub stars](https://img.shields.io/github/stars/freqtrade/freqtrade?style=social&color=white)](https://github.com/freqtrade/freqtrade/stargazers)
+### 1. [Freqtrade](https://github.com/freqtrade/freqtrade) [![GitHub_Stars](https://img.shields.io/github/stars/freqtrade/freqtrade?style=social&color=white)](https://github.com/freqtrade/freqtrade/stargazers)
 - **Language / License**: Python 🐍 | GPL-3.0
 - **Key Highlights**: The most popular open-source crypto algorithmic trading bot in the world. Features built-in Web UI, Telegram control daemon, Hyperopt parameter optimization via Bayesian search, and integration with 100+ exchanges through CCXT. Includes **FreqAI**, allowing quant traders to train and deploy machine learning models (LightGBM, XGBoost, CatBoost, neural networks, and reinforcement learning via stable-baselines3) with automatic background retraining.
 
 ---
 
-### 2. [vn.py](https://github.com/vnpy/vnpy) [![GitHub stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social&color=white)](https://github.com/vnpy/vnpy/stargazers)
+### 2. [vn.py](https://github.com/vnpy/vnpy) [![GitHub_Stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social&color=white)](https://github.com/vnpy/vnpy/stargazers)
 - **Language / License**: Python / C++ 🐍 | MIT
 - **Key Highlights**: Institutional-grade quantitative trading framework developed for professional trading desks. Features standardized gateway architectures connecting crypto exchanges (Binance, OKX, Bybit) as well as traditional derivatives exchanges (CTP). Provides an event-driven engine, native GUI management suite, paper-trading simulated matching, and portfolio risk management modules.
 
 ---
 
-### 3. [CCXT](https://github.com/ccxt/ccxt) [![GitHub stars](https://img.shields.io/github/stars/ccxt/ccxt?style=social&color=white)](https://github.com/ccxt/ccxt/stargazers)
+### 3. [CCXT](https://github.com/ccxt/ccxt) [![GitHub_Stars](https://img.shields.io/github/stars/ccxt/ccxt?style=social&color=white)](https://github.com/ccxt/ccxt/stargazers)
 - **Language / License**: JavaScript / TypeScript / Python / PHP / C# / Go / Rust 🌐 | MIT
 - **Key Highlights**: The universal standard multi-exchange API connector library supporting over 100 cryptocurrency exchanges. Offers 56+ unified REST trade/market methods and 18+ real-time WebSocket `watch*` streaming methods. Ships with automatic request rate-limiting, failover reconnection, and unified error classes—serving as the foundational connectivity backbone for Freqtrade, Hummingbot, and countless commercial quant trading firms.
 
 ---
 
-### 4. [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) [![GitHub stars](https://img.shields.io/github/stars/nautechsystems/nautilus_trader?style=social&color=white)](https://github.com/nautechsystems/nautilus_trader/stargazers)
+### 4. [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) [![GitHub_Stars](https://img.shields.io/github/stars/nautechsystems/nautilus_trader?style=social&color=white)](https://github.com/nautechsystems/nautilus_trader/stargazers)
 - **Language / License**: Rust & Python 🦀🐍 | LGPL-3.0
 - **Key Highlights**: High-performance, production-grade algorithmic trading platform built with a high-throughput Rust core and Python ergonomic API. Engineered to eliminate backtest-to-live execution divergence by executing the exact same event-driven strategy code in historical tick-level simulations and live crypto execution (Binance, Bybit, Kraken). Features nanosecond timestamps, custom order books, and advanced risk limiters.
 
 ---
 
-### 5. [Backtrader](https://github.com/mementum/backtrader) [![GitHub stars](https://img.shields.io/github/stars/mementum/backtrader?style=social&color=white)](https://github.com/mementum/backtrader/stargazers)
+### 5. [Backtrader](https://github.com/mementum/backtrader) [![GitHub_Stars](https://img.shields.io/github/stars/mementum/backtrader?style=social&color=white)](https://github.com/mementum/backtrader/stargazers)
 - **Language / License**: Python 🐍 | GPL-3.0
 - **Key Highlights**: Veteran Python backtesting and live trading library designed for modularity and rapid strategy iteration. Supports multi-timeframe analysis, customizable indicators, commission schemes, slippage modeling, and PyData integrations (Pandas, Matplotlib). Extensible with community-maintained live crypto exchange drivers (CCXT, Binance).
 
 ---
 
-### 6. [Lean (QuantConnect)](https://github.com/QuantConnect/Lean) [![GitHub stars](https://img.shields.io/github/stars/QuantConnect/Lean?style=social&color=white)](https://github.com/QuantConnect/Lean/stargazers)
+### 6. [Lean (QuantConnect)](https://github.com/QuantConnect/Lean) [![GitHub_Stars](https://img.shields.io/github/stars/QuantConnect/Lean?style=social&color=white)](https://github.com/QuantConnect/Lean/stargazers)
 - **Language / License**: C# & Python ⚡ | Apache-2.0
 - **Key Highlights**: Enterprise-grade algorithmic trading engine powering the QuantConnect platform. Features native support for equities, FX, futures, options, and cryptocurrency markets (Binance, Coinbase, Kraken, Bitfinex). Provides institutional-grade backtesting with tick, second, and minute resolution data, realistic order fill modeling, and multi-asset portfolio rebalancing.
 
 ---
 
-### 7. [Hummingbot](https://github.com/hummingbot/hummingbot) [![GitHub stars](https://img.shields.io/github/stars/hummingbot/hummingbot?style=social&color=white)](https://github.com/hummingbot/hummingbot/stargazers)
+### 7. [Hummingbot](https://github.com/hummingbot/hummingbot) [![GitHub_Stars](https://img.shields.io/github/stars/hummingbot/hummingbot?style=social&color=white)](https://github.com/hummingbot/hummingbot/stargazers)
 - **Language / License**: Python & Cython 🐍 | Apache-2.0
 - **Key Highlights**: Institutional open-source crypto market-making and liquidity automation framework operating in production since 2019. Maintains 50+ centralized (CEX) connectors and decentralized (DEX Gateway for Uniswap, Raydium, Jupiter). Features pure market making, cross-exchange arbitrage, order book spread maintenance, multi-bot orchestration via Docker, and the Condor AI harness for LLM-driven trading agents.
 
 ---
 
-### 8. [TA-Lib Python](https://github.com/mrjbq7/ta-lib) [![GitHub stars](https://img.shields.io/github/stars/mrjbq7/ta-lib?style=social&color=white)](https://github.com/mrjbq7/ta-lib/stargazers)
+### 8. [TA-Lib Python](https://github.com/mrjbq7/ta-lib) [![GitHub_Stars](https://img.shields.io/github/stars/mrjbq7/ta-lib?style=social&color=white)](https://github.com/mrjbq7/ta-lib/stargazers)
 - **Language / License**: C & Python 📊 | BSD
 - **Key Highlights**: High-speed Python wrapper for TA-Lib (Technical Analysis Library). Essential mathematical engine used across crypto trading bots for calculating 150+ quantitative indicators including RSI, MACD, Bollinger Bands, Stochastic, ATR, and automated candlestick pattern recognition with zero computational overhead.
 
 ---
 
-### 9. [Gekko](https://github.com/askmike/gekko) [![GitHub stars](https://img.shields.io/github/stars/askmike/gekko?style=social&color=white)](https://github.com/askmike/gekko/stargazers)
+### 9. [Gekko](https://github.com/askmike/gekko) [![GitHub_Stars](https://img.shields.io/github/stars/askmike/gekko?style=social&color=white)](https://github.com/askmike/gekko/stargazers)
 - **Language / License**: JavaScript / Node.js ☕ | MIT
 - **Key Highlights**: Pioneering open-source cryptocurrency trading bot and backtesting platform with a clean web GUI and CLI. While legacy, Gekko established foundational architectural patterns for web-managed algorithmic bot architectures, automated CLI backtesting sweeps, and multi-exchange data collection across Bitcoin and Altcoins.
 
 ---
 
-### 10. [Jesse](https://github.com/jesse-ai/jesse) [![GitHub stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social&color=white)](https://github.com/jesse-ai/jesse/stargazers)
+### 10. [Jesse](https://github.com/jesse-ai/jesse) [![GitHub_Stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social&color=white)](https://github.com/jesse-ai/jesse/stargazers)
 - **Language / License**: Python 🐍 | MIT
 - **Key Highlights**: Modern, developer-first quantitative crypto trading framework emphasizing clean strategy syntax and hyper-realistic backtesting. Built-in position sizing, realistic dynamic fees, partial fills, and slippage simulation prevent lookahead bias without convoluted boilerplate. Features native multi-timeframe candle routing and an intuitive strategy API.
 
 ---
 
-### 11. [OctoBot](https://github.com/Drakkar-Software/OctoBot) [![GitHub stars](https://img.shields.io/github/stars/Drakkar-Software/OctoBot?style=social&color=white)](https://github.com/Drakkar-Software/OctoBot/stargazers)
+### 11. [OctoBot](https://github.com/Drakkar-Software/OctoBot) [![GitHub_Stars](https://img.shields.io/github/stars/Drakkar-Software/OctoBot?style=social&color=white)](https://github.com/Drakkar-Software/OctoBot/stargazers)
 - **Language / License**: Python 🐍 | GPL-3.0
 - **Key Highlights**: Modular crypto trading robot supporting automated grid trading, DCA, AI predictions, and market making via the specialized `OctoBot-Market-Making` suite. Connects to 15+ exchanges (Binance, KuCoin, OKX, Hyperliquid), features paper trading simulation, Telegram/Discord remote management, and an accessible Web dashboard.
 
 ---
 
-### 12. [Superalgos](https://github.com/superalgos/superalgos) [![GitHub stars](https://img.shields.io/github/stars/superalgos/superalgos?style=social&color=white)](https://github.com/superalgos/superalgos/stargazers)
+### 12. [Superalgos](https://github.com/superalgos/superalgos) [![GitHub_Stars](https://img.shields.io/github/stars/superalgos/superalgos?style=social&color=white)](https://github.com/superalgos/superalgos/stargazers)
 - **Language / License**: JavaScript / Node.js 🌐 | Apache-2.0
 - **Key Highlights**: Comprehensive algorithmic trading platform featuring a visual node-based strategy designer, data mining pipelines, machine learning integration, and distributed multi-server execution. Enables visual strategy creation, automated live execution across crypto exchanges, and collaborative crowdsourced quant intelligence.
 
 ---
 
-### 13. [Binance Trading Bot](https://github.com/chrisleekr/binance-trading-bot) [![GitHub stars](https://img.shields.io/github/stars/chrisleekr/binance-trading-bot?style=social&color=white)](https://github.com/chrisleekr/binance-trading-bot/stargazers)
+### 13. [Binance Trading Bot](https://github.com/chrisleekr/binance-trading-bot) [![GitHub_Stars](https://img.shields.io/github/stars/chrisleekr/binance-trading-bot?style=social&color=white)](https://github.com/chrisleekr/binance-trading-bot/stargazers)
 - **Language / License**: JavaScript / Node.js ☕ | MIT
 - **Key Highlights**: Automated spot trading bot specifically tailored for Binance and Binance US. Includes a rich responsive frontend dashboard, real-time WebSocket order tracking, buy/sell signal monitoring, customizable stop-loss/take-profit risk settings, and Docker containerized deployment.
 
 ---
 
-### 14. [Binance Connector Python](https://github.com/binance/binance-connector-python) [![GitHub stars](https://img.shields.io/github/stars/binance/binance-connector-python?style=social&color=white)](https://github.com/binance/binance-connector-python/stargazers)
+### 14. [Binance Connector Python](https://github.com/binance/binance-connector-python) [![GitHub_Stars](https://img.shields.io/github/stars/binance/binance-connector-python?style=social&color=white)](https://github.com/binance/binance-connector-python/stargazers)
 - **Language / License**: Python 🐍 | MIT
 - **Key Highlights**: Official lightweight connector for Binance Public Spot and Margin REST and WebSocket APIs. Provides authenticated RSA/Ed25519 signing, zero unnecessary dependencies, and complete testnet compatibility for developers constructing bespoke high-throughput execution engines.
 
 ---
 
-### 15. [Cryptofeed](https://github.com/bmoscon/cryptofeed) [![GitHub stars](https://img.shields.io/github/stars/bmoscon/cryptofeed?style=social&color=white)](https://github.com/bmoscon/cryptofeed/stargazers)
+### 15. [Cryptofeed](https://github.com/bmoscon/cryptofeed) [![GitHub_Stars](https://img.shields.io/github/stars/bmoscon/cryptofeed?style=social&color=white)](https://github.com/bmoscon/cryptofeed/stargazers)
 - **Language / License**: Python 🐍 | MIT
 - **Key Highlights**: Standardized, asynchronous cryptocurrency data feed handler streaming real-time normalized market data (L2/L3 order books, trades, ticker, funding rates, open interest) from 30+ crypto exchanges over WebSocket. Integrates with Redis, Kafka, InfluxDB, QuestDB, and Postgres for institutional quant research.
 
 ---
 
-### 16. [Barter-rs](https://github.com/barter-rs/barter-rs) [![GitHub stars](https://img.shields.io/github/stars/barter-rs/barter-rs?style=social&color=white)](https://github.com/barter-rs/barter-rs/stargazers)
+### 16. [Barter-rs](https://github.com/barter-rs/barter-rs) [![GitHub_Stars](https://img.shields.io/github/stars/barter-rs/barter-rs?style=social&color=white)](https://github.com/barter-rs/barter-rs/stargazers)
 - **Language / License**: Rust 🦀 | MIT
 - **Key Highlights**: Open-source Rust framework engineered for ultra-fast, event-driven live trading and backtesting across multiple crypto venues. Features high-performance market data normalization, modular execution engines, risk controllers, and sub-millisecond async order routing.
 
 ---
 
-### 17. [NinjaBot](https://github.com/rodrigo-brito/ninjabot) [![GitHub stars](https://img.shields.io/github/stars/rodrigo-brito/ninjabot?style=social&color=white)](https://github.com/rodrigo-brito/ninjabot/stargazers)
+### 17. [NinjaBot](https://github.com/rodrigo-brito/ninjabot) [![GitHub_Stars](https://img.shields.io/github/stars/rodrigo-brito/ninjabot?style=social&color=white)](https://github.com/rodrigo-brito/ninjabot/stargazers)
 - **Language / License**: Go (Golang) 🐹 | MIT
 - **Key Highlights**: Fast, lightweight cryptocurrency algorithmic trading bot framework in Go. Features clean idiomatic architecture, fast backtesting engine, paper trading simulation, Telegram notifications, and native Binance connector with low memory consumption and concurrent goroutines.
 
 ---
 
-### 18. [Kelp](https://github.com/stellar/kelp) [![GitHub stars](https://img.shields.io/github/stars/stellar/kelp?style=social&color=white)](https://github.com/stellar/kelp/stargazers)
+### 18. [Kelp](https://github.com/stellar/kelp) [![GitHub_Stars](https://img.shields.io/github/stars/stellar/kelp?style=social&color=white)](https://github.com/stellar/kelp/stargazers)
 - **Language / License**: Go (Golang) 🐹 | Apache-2.0
 - **Key Highlights**: Free, customizable, open-source market-making bot developed by the Stellar Development Foundation. Implements automated spread strategies, balanced order book placement, and centralized exchange connectors (Binance, Kraken, Poloniex) as well as Stellar DEX liquidity provision.
 
 ---
 
-### 19. [ADAMANT Tradebot](https://github.com/adamant-im/adamant-tradebot) [![GitHub stars](https://img.shields.io/github/stars/adamant-im/adamant-tradebot?style=social&color=white)](https://github.com/adamant-im/adamant-tradebot/stargazers)
+### 19. [ADAMANT Tradebot](https://github.com/adamant-im/adamant-tradebot) [![GitHub_Stars](https://img.shields.io/github/stars/adamant-im/adamant-tradebot?style=social&color=white)](https://github.com/adamant-im/adamant-tradebot/stargazers)
 - **Language / License**: JavaScript / Node.js ☕ | GPL-3.0
 - **Key Highlights**: Free, self-hosted market-making and liquidity management bot tailored for token issuers and crypto communities. Operates without exposing API keys to external servers, providing dynamic order book building, spread maintenance, reference price arbitrage, and secure management via decentralized messenger commands.
 
 ---
 
-### 20. [OpenSQT Market Maker](https://github.com/dennisyang1986/opensqt_market_maker) [![GitHub stars](https://img.shields.io/github/stars/dennisyang1986/opensqt_market_maker?style=social&color=white)](https://github.com/dennisyang1986/opensqt_market_maker/stargazers)
+### 20. [OpenSQT Market Maker](https://github.com/dennisyang1986/opensqt_market_maker) [![GitHub_Stars](https://img.shields.io/github/stars/dennisyang1986/opensqt_market_maker?style=social&color=white)](https://github.com/dennisyang1986/opensqt_market_maker/stargazers)
 - **Language / License**: Go (Golang) 🐹 | Open Source
 - **Key Highlights**: High-concurrency, millisecond-latency crypto market maker built in Go. Employs WebSocket-driven order-flow handling, intelligent smart grid strategies with a "Super Slot" order management system, volume-anomaly risk checks, and local/exchange state reconciliation across Binance, Bitget, and Gate.io.
 
 ---
 
-### 21. [CCAPI](https://github.com/crypto-chassis/ccapi) [![GitHub stars](https://img.shields.io/github/stars/crypto-chassis/ccapi?style=social&color=white)](https://github.com/crypto-chassis/ccapi/stargazers)
+### 21. [CCAPI](https://github.com/crypto-chassis/ccapi) [![GitHub_Stars](https://img.shields.io/github/stars/crypto-chassis/ccapi?style=social&color=white)](https://github.com/crypto-chassis/ccapi/stargazers)
 - **Language / License**: C++ ⚡ | Apache-2.0
 - **Key Highlights**: Header-only, ultra-low-latency C++ library for streaming market data and executing trades across 25+ cryptocurrency exchanges. Optimized for HFT trading firms needing microsecond parsing, lock-free queues, and cross-platform high-throughput order execution.
 
@@ -243,7 +243,7 @@ Contributions are warmly welcomed! Help keep this directory accurate, up-to-date
 1. **Fork the repository** to your GitHub account.
 2. **Add or update entries** in `README.md` following the existing format.
    - For SaaS products: Include specific starting tier pricing and specific free tier limits in tabular form.
-   - For Open-Source repositories: Include language, license, key features, and the standard star badge linked to stargazers.
+   - For Open-Source repositories: Include language, license, key features, and the standard Stars_Badge linked to stargazers.
 3. **Validate links and data** to ensure factual accuracy.
 4. **Submit a Pull Request (PR)** with a clear description of the project and its relevance to crypto automated trading.
 
